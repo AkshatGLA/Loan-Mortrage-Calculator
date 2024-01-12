@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form id="body">
+        <table>
+            <tr><th colspan="2"><h2>Loan Mortrage Calculator</h2></th></tr>
+    <tr><td><h3>Loan Amount:$ </h3></td><td><h3><input type="number" id="amount" onchange="computeLoan()"></h3></td></tr>
+    <tr><td><h3>Interest Rate:% </h3></td><td><h3> <input type="number" id="interest" onchange="computeLoan()"></h3></td></tr>
+    <tr><td><h3>Month to Pay:</h3></td><td><h3> <input type="number" id="months" onchange="computeLoan()"></h3></td></tr>
+    <tr><td><h2>Monthly Payment: $</h2></td><td><h2 id="payment"></h2></td></tr>
+    </form>
+</body>
+</html>
